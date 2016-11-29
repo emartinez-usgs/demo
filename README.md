@@ -1,2 +1,2 @@
-# demo
+# Demo
 Just a temporary demo project...

@@ -4,7 +4,7 @@
   "description": "Just a temporary demo project...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha index.spec.js --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/emartinez-usgs/demo/issues"
   },
-  "homepage": "https://github.com/emartinez-usgs/demo#readme"
+  "homepage": "https://github.com/emartinez-usgs/demo#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
